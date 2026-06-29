@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+
+}
+#mybutton{
+    padding: 10px;
+    font-size: 20px;
+    background-color: #197fdd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#mybutton:hover{
+    background-color: #043edd;
+}
+.label1{
+    font-size: 30px;
+    color: #510423;
+    margin-top: 20px;
+    
+}
+.label2{
+    font-size: 30px;
+    color: #510423;
+    margin-top: 20px;
+    
+}
+.label3{
+    font-size: 30px;
+    color: #510423;
+    margin-top: 20px;
+  
+}
