@@ -36,3 +36,14 @@ let Hereos=[...Avengers,...DC];//Spread operators helps to merge two arrays and 
 console.log(Hereos);
 
 //Rest Operator
+let user = { name: "Charchit", scores: [70, 80, 90] };
+
+function updateUser(u) {
+    let { name, scores } = u;
+    scores.push(100);
+    name = "Changed";
+    console.log(u.name, u.scores);
+}
+
+updateUser(user);
+console.log(user.name, user.scores);
