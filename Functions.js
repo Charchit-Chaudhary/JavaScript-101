@@ -120,19 +120,3 @@ const calculate=(num1,num2,operator)=>{
         default:  return "Invalid operator";
     }
 }
-let store=console.log(calculate(5,3,"-"));
-
-const greet=()=>{
-    let student="charchit";
-    console.log(`hello, ${student}`);
-}
-
-let animal ="lion";
- function jungle(){
-    let tree ="oak";
-    console.log(animal);
- }
- 
- jungle();
-
- 
